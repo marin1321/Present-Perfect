@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                spacing: {
+                    '100': '50rem',
+                },
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav
+        class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg">
+        <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+            <div class="container-fluid">
+                <a class="text-xl text-black font-semibold" href="#">PRESENT PERFECT</a>
+            </div>
+        </div>
+    </nav>
+    <div class="relative overflow-hidden bg-no-repeat bg-cover" style="
+    background-position: 50%;
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
+    height: 350px;
+  ">
+        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+            style="background-color: rgba(0, 0, 0, 0.75)">
+            <div class="flex justify-center items-center h-full">
+                <div class="text-center text-white px-6 md:px-12">
+                    <h1 class="text-5xl font-bold mt-0 mb-6">Heading</h1>
+                    <h3 class="text-3xl font-bold mb-8">Subeading</h3>
+                    <button type="button"
+                        class="inline-block px-6 py-2.5 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                        data-mdb-ripple="true" data-mdb-ripple-color="light">
+                        Get started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center items-center flex-col">
+        <p class="mr-40 ml-40 mt-12 text-xl text-center sm:m-5">Lo principal es saber en que momentos utilizar has y el
+            momento de utilizar have, en la siguiente tabla encontraras la forma correcta</p>
+        <div class="flex flex-col">
+            <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                    <div class="overflow-hidden">
+                        <table class="min-w-full text-center">
+                            <thead class="border-b">
+                                <tr>
+                                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4">
+                                        Sujeto
+                                    </th>
+                                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4">
+                                        Auxiliar
+                                    </th>
+                                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4">
+                                        Forma Corta
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b bg-blue-100 border-blue-200">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        I
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Have
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        I've
+                                    </td>
+                                </tr>
+                                <tr class="border-b bg-blue-100 border-blue-200">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        You
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Have
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        You’ve
+                                    </td>
+                                </tr>
+                                <tr class="border-b bg-blue-100 border-blue-200">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        He
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Has
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        He’ve
+                                    </td>
+                                </tr>
+                                <tr class="border-b bg-blue-100 border-blue-200">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        She
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Has
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        She’ve
+                                    </td>
+                                </tr>
+                                <tr class="border-b bg-blue-100 border-blue-200">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        It
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Has
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        It’ve
+                                    </td>
+                                </tr>
+                                <tr class="border-b bg-blue-100 border-blue-200">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        We
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Have
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        We’ve
+                                    </td>
+                                </tr>
+                                <tr class="border-b bg-blue-100 border-blue-200">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        They
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Have
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        They’ve
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="mr-40 ml-40 mt-12 text-xl text-center sm:m-5">El present perfect tiene tres estructuras: afirmativa,
+            negativa e interrogativa, las cuales se ordenan de la forma que puedes ver mas abajo, y en las que también
+            puedes encontrar distintas oraciones con su traducción al español.</p>
+        <div class="flex justify-center flex-wrap gap-12 flex-col">
+            <button type="button"
+                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                data-bs-toggle="modal" data-bs-target="#exampleModalLgAfirmative">Afirmative</button>
+            <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+                id="exampleModalLgAfirmative" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-modal="true"
+                role="dialog">
+                <div class="modal-dialog modal-lg relative w-auto pointer-events-none">
+                    <div
+                        class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                        <div
+                            class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                            <h5 class="text-xl font-medium leading-normal text-gray-800" id="exampleModalLgAfirmative">
+                                affirmative structure
+                            </h5>
+                            <button type="button"
+                                class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body relative p-4">
+                            <div class="flex flex-col">
+                                <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                                    <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                                        <div class="overflow-hidden">
+                                            <table class="min-w-full text-center">
+                                                <thead class="border-b border-black">
+                                                    <tr>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Sujeto
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Auxiliar
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Verbo en participio
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Complemento
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Traducción
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            I
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Have
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Talked
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            To the doctor
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            He hablado con el doctor
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            You
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Have
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Played
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Videogames
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Tú has jugado videojuegos
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            She
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Has
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Worked
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            In radio stations
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Ella ha trabajado en estaciones de radio
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button"
+                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                data-bs-toggle="modal" data-bs-target="#exampleModalLgNegative">Negative</button>
+            <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+                id="exampleModalLgNegative" tabindex="-1" aria-labelledby="exampleModalXlLabel" aria-modal="true"
+                role="dialog">
+                <div class="modal-dialog modal-xl relative w-auto pointer-events-none">
+                    <div
+                        class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                        <div
+                            class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                            <h5 class="text-xl font-medium leading-normal text-gray-800" id="exampleModalLgNegative">
+                                negative structure
+                            </h5>
+                            <button type="button"
+                                class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body relative p-4">
+                            <div class="flex flex-col">
+                                <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                                    <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                                        <div class="overflow-hidden">
+                                            <table class="min-w-full text-center">
+                                                <thead class="border-b border-black">
+                                                    <tr>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Sujeto
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Auxiliar
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Not
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Verbo en participio
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Complemento
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Traducción
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            I
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Have
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Not
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Watched
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            That movie
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            No he visto esa película
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            They
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Have
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Not
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Written
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            The report
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Ellos no han escrito el reporte
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            He
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Has
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Not
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Called
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            His grandmother
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Él no ha hablado con su abuela
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button"
+                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                data-bs-toggle="modal" data-bs-target="#exampleModalLgInterrogative">Interrogative</button>
+            <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+                id="exampleModalLgInterrogative" tabindex="-1" aria-labelledby="exampleModalXlLabel" aria-modal="true"
+                role="dialog">
+                <div class="modal-dialog modal-xl relative w-auto pointer-events-none">
+                    <div
+                        class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                        <div
+                            class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                            <h5 class="text-xl font-medium leading-normal text-gray-800"
+                                id="exampleModalLgInterrogative">
+                                interrogative structure
+                            </h5>
+                            <button type="button"
+                                class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body relative p-4">
+                            <div class="flex flex-col">
+                                <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                                    <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                                        <div class="overflow-hidden">
+                                            <table class="min-w-full text-center">
+                                                <thead class="border-b border-black">
+                                                    <tr>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Auxiliar
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Sujeto
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Verbo en participio
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Complemento
+                                                        </th>
+                                                        <th scope="col"
+                                                            class="text-sm font-medium text-gray-900 px-6 py-4">
+                                                            Traducción
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            Have
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            I
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Lost
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            My wallet?
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            ¿He perdido mi cartera?
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            Has
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            She
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Cooked
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Pozole?
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            ¿Ella ha preparado pozole?
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-b bg-blue-100 border-blue-200">
+                                                        <td
+                                                            class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                                            Have
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            We
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            Traveled
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            In an airplane?
+                                                        </td>
+                                                        <td
+                                                            class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                            ¿Hemos viajado en avión?
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="flex justify-center items-center flex-col gap-12">
+            <h3 class="m-12 text-4xl">JUEGOS</h3>
+            <div>
+                <iframe
+                    src="https://wordwall.net/es/embed/df312e55105d45d7bfaa72920a69b58e?themeId=2&templateId=2&fontStackId=0"
+                    frameborder="0" allowfullscreen class="w-100 h-80"></iframe>
+            </div>
+            <div>
+                <iframe
+                    src="https://wordwall.net/es/embed/bd29e057b98b4146adc47f856be2b67d?themeId=3&templateId=72&fontStackId=0"
+                    frameborder="0" allowfullscreen class="w-100 h-80"></iframe>
+            </div>
+            <div>
+                <iframe
+                    src="https://wordwall.net/es/embed/f192b39d09ee41baa51d1d9348454aac?themeId=3&templateId=72&fontStackId=0"
+                    frameborder="0" allowfullscreen class="w-100 h-80"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-gray-200 text-center lg:text-left mt-6">
+        <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-gray-800" href="https://tailwind-elements.com/">Group</a>
+        </div>
+    </footer>
+</body>
+
+</html>
